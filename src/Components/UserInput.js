@@ -30,7 +30,7 @@ function UserInput(props) {
   const inputChangeHandler = (input, value) => {
     setUserInput((prev) => {
       return {
-        ...prev, [input]: value,
+        ...prev, [input]: +value,
 
       };
 
